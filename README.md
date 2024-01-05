@@ -1,2 +1,2 @@
 # Pyautogui Testes
-Testes utilizando a Biblioteca PyAutoGui de Python
+Testes utilizando a Biblioteca PyAutoGui de Python para criação de projetos

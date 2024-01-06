@@ -17,11 +17,12 @@ click()
 
 typewrite('edge', interval=0.5)
 press('enter')
+press('win' + 'up')
 
 sleep(2)
 
 # Obtendo as coordenadas da imagem 
-mais = locateOnScreen('Mais.png')
+mais = locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\mais.png')
 
 # Clicando no centro da imagem 
 click(mais)
@@ -30,8 +31,5 @@ click(mais)
 sleep(1)
 typewrite('instagram\n', interval=0.2)
 
-# Pressionando F11 para deixar a guia em tela cheia
-press('f11')
-
 sleep(2)
-print("!")
+print("Funcionouu!!")

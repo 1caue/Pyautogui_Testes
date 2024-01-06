@@ -2,10 +2,10 @@ from pyautogui import *
 from time import sleep
 
 sleep(2)
-click(198, 1064)
+click(157, 1068)
 
 sleep(0.5)
-click(186, 728)
+write('paint\n', interval=0.1)
 
 sleep(0.5)
 click(561, 257)

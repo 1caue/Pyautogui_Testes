@@ -1,4 +1,8 @@
 from pyautogui import *
+import webbrowser
+
+webbrowser.open('https://www.google.com/search?q=calculadora&oq=ca&gs_lcrp=EgZjaHJvbWUqDggBEEUYJxg7GIAEGIoFMgYIABBFGDwyDggBEEUYJxg7GIAEGIoFMgYIAhBFGDsyBggDEEUYOzIGCAQQRRg7MgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIMTgyM2owajeoAgCwAgA&sourceid=chrome&ie=UTF-8')
+sleep(2)
 
 try:
     while True:

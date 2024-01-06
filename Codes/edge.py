@@ -1,12 +1,6 @@
 from pyautogui import *
 
 sleep(1)
-# Só é necessario se for mover o mouse para o canto superior esquerdo
-FAILSAFE = False
-
-# Pegando as dimensôes da tela
-width, height = size()
-
 # Movendo
 moveTo(10, 1057)
 
@@ -14,22 +8,22 @@ moveTo(10, 1057)
 click()
 
 # Digitando o aplicativo e dando enter
-
 typewrite('edge', interval=0.5)
 press('enter')
-press('win' + 'up')
 
+# Colocando em tela cheia
+sleep(1)
+press('f11')
+
+# Loop apertando tab até ele chegar na barra de pesquisa
 sleep(2)
-
-# Obtendo as coordenadas da imagem 
-mais = locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\mais.png')
-
-# Clicando no centro da imagem 
-click(mais)
+for a in range(0, 2):
+    press('tab')
 
 # Digitando na barra de pesquisa o instragram, O "\n" serve para dar enter
 sleep(1)
-typewrite('instagram\n', interval=0.2)
+write('instagram\n', interval=0.2)
 
-sleep(2)
+# "Confirmador" de funcionamento
+sleep(1)
 print("Funcionouu!!")

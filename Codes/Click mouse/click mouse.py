@@ -5,7 +5,7 @@ sleep(2)
 # Abrir Calculadora
 click(201, 1060)
 write('calculadora\n', interval=0.1)
-sleep(2)
+sleep(1)
 
 # Procurar Números 
 um = locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\Click mouse\um.png')

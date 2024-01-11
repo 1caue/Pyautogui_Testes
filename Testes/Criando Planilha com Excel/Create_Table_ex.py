@@ -15,7 +15,7 @@ keyUp('winleft')
 
 # Selecionar a Opção De Tabela formatada
 sleep(1)
-formatar = locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Testes\Create Table\formatar.png')
+formatar = locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Testes\Criando Planilha com Excel\formatar.png')
 click(formatar, button='left')
 
 # Selecionando Formatação

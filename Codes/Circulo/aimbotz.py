@@ -13,4 +13,5 @@ while True:
 
 ''' Script Criado com o intuito do codigo Clicar na imagem 
     Fornecida quando aparente na tela '''
+
 # Site: https://www.adamantiun.com.br/reflexo-adamantiun-gamer'

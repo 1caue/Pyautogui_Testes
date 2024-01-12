@@ -1,11 +1,8 @@
 from pyautogui import *
 
 sleep(1)
-# Movendo
-moveTo(10, 1057)
-
 # Clicando na tela
-click()
+click(10, 1057)
 
 # Digitando o aplicativo e dando enter
 typewrite('edge', interval=0.5)
@@ -13,17 +10,19 @@ press('enter')
 
 # Colocando em tela cheia
 sleep(1)
-press('f11')
+keyDown('winleft')
+press('up')
+keyUp('winleft')
 
-# Loop apertando tab até ele chegar na barra de pesquisa
-sleep(2)
-for a in range(0, 2):
-    press('tab')
-
-# Digitando na barra de pesquisa o instragram, O "\n" serve para dar enter
+# Digitando na barra de pesquisa a Documentação da biblioteca, O "\n" serve para dar enter
 sleep(1)
-write('instagram\n', interval=0.2)
+write('PyAutoGUI\n', interval=0.05)
 
-# "Confirmador" de funcionamento
-sleep(1)
-print("Funcionouu!!")
+sleep(3) # Esperando a pagina carregar
+
+# Entrando na Documentação Oficial
+press('tab')
+press('enter')
+
+''' Script criado com o intuido do Computador Entrar no Edge 
+    e Pesquise sobre a biblioteca PyAutoGUI'''

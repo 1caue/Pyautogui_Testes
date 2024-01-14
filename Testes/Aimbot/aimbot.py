@@ -27,3 +27,4 @@ while keyboard.is_pressed('c') == False:
        if achou == 1:
          break
 
+# https://mouseaccuracy.com/ 

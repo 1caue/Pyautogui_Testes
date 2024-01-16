@@ -1,30 +1,30 @@
 import pyautogui
 import keyboard
 import time
-import pywin32_system32
 
 def click(x, y):
-    pywin32_system32.SetCursorPos(x, y)
-    pywin32_system32.mouse_event(pywin32_system32.MOUSEEVENTF_LEFTDOWN,0,0)
-    pywin32_system32.mouse_event(pywin32_system32.MOUSEEVENTF_LEFTUP,0,0)
+    pyautogui.click(x, y)
 
-while keyboard.is_pressed('c') == False:
+while not keyboard.is_pressed('c'):
     print('Começou a percorrer o SC')
-    sc = pyautogui.screenshot(region=(1899, 736, 580, 400))
+    sc = pyautogui.screenshot(region=(0, 0, 629, 477))
     width, height = sc.size
 
-    for x in range(0, width, 12):
+    for x in range(0, width, 20):
        achou = 0
-       for y in range(0,height,12):
+       
+       for y in range(0, height, 20):
            r,g,b = sc.getpixel((x,y))
-           print(r,g,b)
+           print(r,g,b)    
 
-           if r == 255 and b == 73:
+           if r == 255 and b == 78:
+               print('ok')
+               click(x, y)
                achou = 1
-               click(1899, 736)
-               time.sleep(0.05)
+               time.sleep(1)
                break
+       
        if achou == 1:
-         break
+           break    
 
-# https://mouseaccuracy.com/ 
+# http://www.aimbooster.com/ 

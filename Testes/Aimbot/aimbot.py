@@ -1,30 +1,10 @@
 import pyautogui
-import keyboard
-import time
+pyautogui.sleep(2)
+pyautogui.displayMousePosition()
 
-def click(x, y):
-    pyautogui.click(x, y)
+for i in ('i' * 100):
+    cord = pyautogui.locateOnScreen('alvo.png', region=(735, 386, 1168, 822))
+    pyautogui.click(cord, button='left')
+    pyautogui.PAUSE = 0.000000000000001
 
-while not keyboard.is_pressed('c'):
-    print('Começou a percorrer o SC')
-    sc = pyautogui.screenshot(region=(0, 0, 629, 477))
-    width, height = sc.size
-
-    for x in range(0, width, 20):
-       achou = 0
-       
-       for y in range(0, height, 20):
-           r,g,b = sc.getpixel((x,y))
-           print(r,g,b)    
-
-           if r == 255 and b == 78:
-               print('ok')
-               click(x, y)
-               achou = 1
-               time.sleep(1)
-               break
-       
-       if achou == 1:
-           break    
-
-# http://www.aimbooster.com/ 
+# site : https://www.arealme.com/aim-test/pt/#google_vignette

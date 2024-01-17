@@ -1,4 +1,4 @@
-# Pyautogui Testes
+# PyautoGui Testes
  Testes utilizando a Biblioteca PyAutoGui de Python para criação de projetos, Todos os arquivos são testes de estudo
 - [Aimbotz](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Circulo):
    Script Criado com o intuito do codigo Clicar na imagem fornecida quando aparente na tela
@@ -9,7 +9,7 @@
 - [Open Page](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Open%20Page):
   Script Criado para Abrir o Google e Pesquisar a Documentação da Biblioteca
  ---
-# Mini Projetos
+# PyautoGui Mini Projetos
  Testes já aplicando os aprendizados na biblioteca PyAutoGui em projetos Reais
  - [Criando uma planilha no Excel](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Criando%20Planilha%20com%20Excel):
    Script criado com o intuito de Criar uma planilha formatada no Excel Automaticamente

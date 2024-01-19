@@ -2,6 +2,8 @@
  Testes utilizando a Biblioteca PyAutoGui de Python para criação de projetos, Todos os arquivos são testes de estudo
 - [Aimbotz](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Circulo):
    Script Criado com o intuito do codigo Clicar na imagem fornecida quando aparente na tela
+- [Aimbotz 2](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Aimbot_tst):
+   Script criado com o mesmo intuito do Anterior porém dessa vez ele irá clicar no alvo
 - [Click Mouse](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Click%20mouse):
   Script Criado com o intuido de abrir a calculadora e que ele digite '1227'
 - [Loop](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Loop):
@@ -21,4 +23,4 @@
  - [Preenchimento de Formulário](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Preenchimento%20de%20Formul%C3%A1rio):
    Script criado para o preenchimento de formulários na Web
  - [Aimbot](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Aimbot):
-   Script Criado para ser o "Hack" em um site de Teste de reflexo (Em Andamento) 
+   Script Criado para ser o "Hack" em um site de Teste de reflexo  

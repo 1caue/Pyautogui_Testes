@@ -8,7 +8,7 @@ for i in range(100):
     pyautogui.sleep(0.0001)
     pyautogui.moveTo(937, 245)
     px_color = pyautogui.pixel(800, 500)
-    cord = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Testes\Aimbot\alvo.png', region=(735, 386, 1168, 822))
+    cord = pyautogui.locateOnScreen(r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\Aimbot_tst\alvo.png', region=(735, 386, 1168, 822))
 
     if cord:
         pyautogui.click(cord, button='left')

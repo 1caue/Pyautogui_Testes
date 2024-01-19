@@ -13,10 +13,10 @@ while not keyboard.is_pressed('c'):
     sc = pyautogui.screenshot(region=(0, 0, 1920, 1080))
     width, height = sc.size
 
-    for x in range(0, width, 17):
+    for x in range(0, width, 16):
         achou = 0
 
-        for y in range(0, height, 17):
+        for y in range(0, height, 16):
             r, g, b = sc.getpixel((x, y))
             print(r, g, b)
 

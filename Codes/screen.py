@@ -1,6 +1,7 @@
 from pyautogui import *
 
 im = screenshot()
+im.show()
 print(pixel(0, 0))
 print(pixel(50, 250))
 

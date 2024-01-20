@@ -18,8 +18,8 @@
  - [Entrando no site CrunchyRoll](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Play%20Crunchyroll):
    Criado com a intenção de fazer as seguintes funcionalidades:
    - Entrar no site
-   - Digitar nome do anime
-   - E dar Play no anime selecionado
+   - Digitar o nome do anime
+   - E dar Play no anime desejado
  - [Preenchimento de Formulário](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Preenchimento%20de%20Formul%C3%A1rio):
    Script criado para o preenchimento de formulários na Web
  - [Aimbot](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Aimbot):

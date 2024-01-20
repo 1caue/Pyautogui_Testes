@@ -26,7 +26,7 @@
    Script Criado para ser o "Hack" em um site de Teste de reflexo  
 ---
 
-# Projeto
+# Projeto (Em andamento)
 ## Captura de Tela e Verificação de Mudanças no Ambiente - PyAutoGUI
 - Este projeto estendido utiliza a biblioteca PyAutoGUI para não apenas capturar automaticamente a tela, mas também realizar verificações adicionais no ambiente do sistema.
 

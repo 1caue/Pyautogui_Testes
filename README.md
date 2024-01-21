@@ -31,11 +31,11 @@
 - Este projeto estendido utiliza a biblioteca PyAutoGUI para não apenas capturar automaticamente a tela, mas também realizar verificações adicionais no ambiente do sistema.
 
 - Funcionalidades
-   - Fechamento de Abas e Janelas:
-   - Além de capturar a tela, o script agora fecha todas as abas e janelas abertas no sistema, garantindo uma área de trabalho limpa.
+   - Minimiza as Abas e Janelas:
+   - Além de capturar a tela, o script minimiza todas as abas e janelas abertas no sistema, garantindo uma área de trabalho limpa.
 
    - Retorno à Tela Inicial do Windows:
-Após as capturas e o fechamento de abas, o script navega de volta à tela inicial do Windows, proporcionando uma base consistente para as futuras análises.
+Após as capturas e o fechamento de abas, o script navega até a tela inicial do Windows, proporcionando uma base consistente para a análise.
 
 - Verificação de Mudanças:
   - O script realiza uma comparação entre a captura inicial e a captura subsequente, identificando mudanças no ambiente, como adição de aplicativos ou pastas.
@@ -46,6 +46,8 @@ Após as capturas e o fechamento de abas, o script navega de volta à tela inici
       pip install pyautogui
 
 - Configure as Opções: Edite o script para definir o caminho da imagem a ser procurada, o intervalo de tempo entre as capturas, e outras configurações necessárias.
+
+- Dê print da sua área de trabalho inicial do windows
 
 - Execute o Script: Execute o script Python, observando o fechamento de abas, o retorno à tela inicial e a detecção de mudanças no ambiente.
 

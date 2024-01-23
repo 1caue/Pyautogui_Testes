@@ -26,13 +26,14 @@
    Script Criado para ser o "Hack" em um site de Teste de reflexo  
 ---
 
-# Projeto (Em andamento)
+# Projeto 
 ## Captura de Tela e Verificação de Mudanças no Ambiente - PyAutoGUI
 - Este projeto estendido utiliza a biblioteca PyAutoGUI para não apenas capturar automaticamente a tela, mas também realizar verificações adicionais no ambiente do sistema.
 
 - Funcionalidades
    - Minimiza as Abas e Janelas:
-   - Além de capturar a tela, o script minimiza todas as abas e janelas abertas no sistema, garantindo uma área de trabalho limpa.
+   - Verificador de mudanças na área de trabalho
+   - Screenshot:
 
    - Retorno à Tela Inicial do Windows:
 Após as capturas e o fechamento de abas, o script navega até a tela inicial do Windows, proporcionando uma base consistente para a análise.
@@ -45,9 +46,9 @@ Após as capturas e o fechamento de abas, o script navega até a tela inicial do
 
       pip install pyautogui
 
-- Configure as Opções: Edite o script para definir o caminho da imagem a ser procurada, o intervalo de tempo entre as capturas, e outras configurações necessárias.
-
 - Dê print da sua área de trabalho inicial do windows
+
+- Configure as Opções: Edite o script para definir o caminho da imagem a ser procurada, o intervalo de tempo entre as capturas, e outras configurações necessárias.
 
 - Execute o Script: Execute o script Python, observando o fechamento de abas, o retorno à tela inicial e a detecção de mudanças no ambiente.
 

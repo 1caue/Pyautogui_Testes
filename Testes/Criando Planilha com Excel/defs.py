@@ -12,10 +12,21 @@ def meses(x):
         write(f'Mes {a}')
         press('enter')
 
-def pagamento_folha(x):
+
+def sort(pn, sn, x):
     sleep(0.5)
     for b in range(1, x):
-        num_sort = gerador(9240, 13200)
-        write(num_sort, interval=0.1)
+        num_sort = gerador(pn, sn)
+        write(num_sort)
         press('enter')
+
+def mover(xini, yini, xfim, yfim):
+    x_ini,  y_ini = xini, yini
+    x_final, y_final = xfim, yfim
+    moveTo(x_ini, y_ini)
+    mouseDown()
+
+    moveTo(x_final, y_final)
+    sleep(1)
+    mouseUp()
 

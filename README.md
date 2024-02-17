@@ -14,7 +14,7 @@
 # PyautoGui Mini Projetos
  Testes já aplicando os aprendizados na biblioteca PyAutoGui em projetos Reais
  - [Criando uma planilha no Excel](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Criando%20Planilha%20com%20Excel):
-   Script criado com o intuito de Criar uma planilha formatada no Excel Automaticamente
+   Script criado com o intuito de Criar uma planilha Simulando os gastos mensais de uma empresa Com Contagem de Mêses, Preço de Energia de cada mês, Preço da Água de cada mês e Folha de pagamento de funcionários e o total de cada coluna e o total de funcionários de cada mês
  - [Entrando no site CrunchyRoll](https://github.com/1caue/Pyautogui_Testes/tree/master/Testes/Play%20Crunchyroll):
    Criado com a intenção de fazer as seguintes funcionalidades:
    - Entrar no site

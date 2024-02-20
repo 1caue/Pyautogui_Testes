@@ -38,3 +38,5 @@ write('Ruby on Rails')
 press('enter')
 
 sleep(100)
+
+'Script Criado com o intuito de Fazer pesquisa no Wikipédia'

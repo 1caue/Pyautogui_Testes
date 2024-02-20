@@ -14,6 +14,7 @@ moveTo(110, 409, duration=0.25)
 # Movendo o arquivo até a pasta desejada
 dragTo(108, 96, duration=1, button='left')
 
+
 # Pressionando enter para confirmar a mudança de pasta
 sleep(0.5)
 press('enter')

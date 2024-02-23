@@ -10,6 +10,8 @@
   Script Criado para que o sistema entre na Calculadora do Google e faça uma Pequena Multiplicação
 - [Open Page](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Open%20Page):
   Script Criado para Abrir o Google e Pesquisar a Documentação da Biblioteca
+- [Wikipédia](https://github.com/1caue/Pyautogui_Testes/tree/master/Codes/Wikip%C3%A9dia):
+  Script Criado para fazer pesquisas no wikipédia sobre qualquer assunto que o usuário inserir
  ---
 # PyautoGui Mini Projetos
  Testes já aplicando os aprendizados na biblioteca PyAutoGui em projetos Reais

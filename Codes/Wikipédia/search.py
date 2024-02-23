@@ -3,9 +3,13 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from pyautogui import *
 
-pacote = 'chromedriver.exe'
+pacote = r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\chromedriver.exe'
 chrome_service = Service(pacote)
 chrome_options = webdriver.ChromeOptions()
+
+pv = input('Qual Primeiro artigo deseja Pesquisar?: ')
+sv = input('Qual Segundo artigo deseja Pesquisar?: ')
+tv = input('Qual Terceiro artigo deseja Pesquisar?: ')
 
 driver = webdriver.Chrome(service=chrome_service, options=chrome_options)
 
@@ -15,7 +19,7 @@ sleep(2)
 
 procura = driver.find_element(By.NAME, 'search')
 procura.click()
-write('Python')
+write(pv)
 press('enter')
 sleep(10)
 
@@ -26,7 +30,7 @@ moveTo(x=188, y=276)
 sleep(1)
 
 press(['tab', 'tab', 'tab', 'tab'])
-write('PHP')
+write(sv)
 press('enter')
 sleep(10)
 
@@ -34,7 +38,7 @@ click(new_tab, button='middle')
 click(x=552, y=11)
 moveTo(x=188, y=276)
 press(['tab', 'tab', 'tab', 'tab'])
-write('Ruby on Rails')
+write(tv)
 press('enter')
 
 sleep(100)

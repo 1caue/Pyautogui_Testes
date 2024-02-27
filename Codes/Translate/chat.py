@@ -41,6 +41,10 @@ try:
     sleep(60)
 
 except Exception as e:
-    print(f'Ocorreu um erro de {e}')
+    print(f'\0333[91mOcorreu um erro de {e}\033[0m')
 
-'Incompleto'
+except KeyboardInterrupt:
+    print('\033[91mCódigo encerrado com Sucesso!\033[0m')
+
+'''Script criado para a tradução de frases/textos a partir do que o usuário inserir, 
+   e logo após salvar em um arquivo .txt'''

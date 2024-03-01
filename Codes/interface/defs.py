@@ -16,14 +16,14 @@ def frase(a, b, x, y):
     lb = Label(a, text=b)
     lb.place(x=x, y=y)
 
-def escrever(a, b, w, x, y, cmd, esc):
-    bt = Button(a, width=w, text=b, command=partial(cmd, esc))
-    bt.place(x=x, y=y)
-
 def pressionar(a, b, w, x, y, comando):
     bt = Button(a, width=w, text=b, command=lambda: press(comando))
     bt.place(x=x, y=y)
 
 def pressionar2(a, b, w, x, y, c1, c2):
     bt = Button(a, width=w, text=b, command=lambda: hotkey(c1, c2))
+    bt.place(x=x, y=y)
+
+def pressionar3(a, b, w, x, y, c1, c2, c3):
+    bt = Button(a, width=w, text=b, command=lambda: hotkey(c1, c2, c3))
     bt.place(x=x, y=y)

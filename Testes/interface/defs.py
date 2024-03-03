@@ -13,9 +13,10 @@ def pressionar(a, b, w, x, y, comando):
     bt = Button(a, width=w, text=b, command=lambda: press(comando))
     bt.place(x=x, y=y)
 
-def pressionar2(a, b, w, x, y, c1, c2):
-    bt = Button(a, width=w, text=b, command=lambda: hotkey(c1, c2))
+def pressionar2(a, b, w, x, y, c1, c2, bg='white', tc='black'):
+    bt = Button(a, width=w, text=b, command=lambda: hotkey(c1, c2), background=bg)
     bt.place(x=x, y=y)
+    bt.config(fg=tc)
 
 def pressionar3(a, b, w, x, y, c1, c2, c3):
     bt = Button(a, width=w, text=b, command=lambda: hotkey(c1, c2, c3))

@@ -3,8 +3,7 @@ from tkinter import *
 
 interface = Tk()
 interface.title('Windows 10 Pro')
-
-Label(interface, text='Tela Interativa', background='white').pack()
+Label(interface, text='Tela Interativa', background='blue', fg='white').pack(pady=0)
 
 btn_click(interface, "Minimizar Tela", 20, 20, 35, command_click, 1799, 11)
 
@@ -32,8 +31,8 @@ pressionar3(interface, "Criar Nova Área de Trabalho", 22, 175, 185, 'ctrl', 'wi
 
 pressionar3(interface, "Ver data e hora", 13, 5, 260, 'win', 'alt', 'd')
 
-pressionar2(interface, "Fechar", 13, 5, 290, 'alt', 'f4')
+pressionar2(interface, "Fechar", 13, 5, 290, 'alt', 'f4', 'red', 'white')
 
-interface["bg"] = "grey"
+interface["bg"] = "white"
 interface.geometry("370x320+200+500")
 interface.mainloop()

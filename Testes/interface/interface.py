@@ -3,7 +3,7 @@ from tkinter import *
 
 interface = Tk()
 interface.title('Windows 10 Pro')
-Label(interface, text='Tela Interativa', background='blue', fg='white').pack(pady=0)
+Label(interface, text='Tela Interativa', background='blue', fg='white', font='Times 14', width=50).pack(pady=0)
 
 btn_click(interface, "Minimizar Tela", 20, 20, 35, command_click, 1799, 11)
 

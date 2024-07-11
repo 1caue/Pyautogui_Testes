@@ -7,7 +7,7 @@ user = input('O que deseja traduzir?: ')
 save = input('Deseja Salvar o Arquivo .txt Como?: ')
 
 try:
-    pacote = 'chromedriver.exe'
+    pacote = r'C:\Users\CAUÊ\Documents\PyAutoGui\Codes\Translate\chromedriver.exe'
     chrome_service = Service(pacote)
     chrome_options = webdriver.ChromeOptions()
 

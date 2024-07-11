@@ -4,10 +4,13 @@ from time import sleep
 sleep(2)
 click(157, 1068)
 
-sleep(0.5)
+sleep(2)
 write('paint\n', interval=0.1)
 
-sleep(0.5)
+sleep(1)
+hotkey('win', 'up')
+
+sleep(2)
 click(561, 257)
 
 distance = 500
@@ -21,3 +24,5 @@ while distance > 0:
 
     distance = distance - delta
     drag(0, -distance, duration=0.2)
+
+hotkey('ctrl', 's')
